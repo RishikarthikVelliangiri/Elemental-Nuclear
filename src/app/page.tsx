@@ -14,7 +14,7 @@ export default function Home() {
       <Features />
 
       {/* About Section - Minimalist Split */}
-      <section id="about" className="py-32 relative">
+      <section id="why-nuclear" className="py-32 relative">
         <div className="container mx-auto px-6 grid md:grid-cols-2 gap-24 items-center">
           <div className="order-2 md:order-1 relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/10 to-transparent blur-2xl rounded-full" />
@@ -45,10 +45,10 @@ export default function Home() {
                 bloat of legacy construction, focusing on modularity, speed,
                 and proven physics.
               </p>
-              <button className="group flex items-center gap-4 text-white hover:text-primary transition-colors mt-8">
+              <a href="#technology" className="group flex items-center gap-4 text-white hover:text-primary transition-colors mt-8">
                 <span className="border-b border-white/20 pb-1 group-hover:border-primary">Read our manifesto</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
