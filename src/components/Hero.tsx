@@ -98,14 +98,14 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
                     className="flex flex-col sm:flex-row items-center gap-6"
                 >
-                    <button className="group flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-medium transition-transform hover:scale-105">
+                    <a href="#technology" className="group flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-medium transition-transform hover:scale-105">
                         Discover
                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                    </button>
+                    </a>
 
-                    <button className="px-8 py-4 text-white hover:text-primary transition-colors font-medium text-sm tracking-wide uppercase border-b border-transparent hover:border-primary/50">
+                    <a href="#technology" className="px-8 py-4 text-white hover:text-primary transition-colors font-medium text-sm tracking-wide uppercase border-b border-transparent hover:border-primary/50">
                         Our Technology
-                    </button>
+                    </a>
                 </motion.div>
             </motion.div>
         </section>
